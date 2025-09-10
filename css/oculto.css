@@ -1,8 +1,0 @@
-@keyframes parpadeo {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-h1::after {
-  content: "█";
-  animation: parpadeo 1s infinite;
-}
