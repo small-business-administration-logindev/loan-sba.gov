@@ -1,0 +1,160 @@
+/* Congratulations Page Styles */
+.p {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: auto;
+  line-height: 1;
+  margin-bottom: 1px;
+  font-size: 25px;
+
+}
+
+.span {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: auto;
+  line-height: 1;
+  margin-bottom: 1px;
+  font-size: 25px;
+
+}
+
+#preloader { 
+  backdrop-filter: blur(50px);
+  size: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e7f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  line-height: 1;
+}
+
+.usa-hero__heading {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  justify-content: center;
+  background: #e7f6f8;
+  padding: 10px 10px;
+  width: 35%;
+  border-radius: 10px;
+  line-height: 1;
+}
+  
+
+.usa-hero__callout {
+  border-radius: 10px;
+  font-size: 25px;
+  line-height: 1;
+
+}
+.sba-assistance-link-container {
+
+  text-align: center;
+  background:none;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.grid-container .usa-hero__container {
+  color: #000000;
+  font-size: 25px;
+  border-radius: 10px; 
+  padding: 20px;
+  justify-content: center;
+  background-color: #ffffff; opacity: 90%;
+  text-shadow: transparent 0 100px 200px rgba(0, 0, 0, 10.5);
+  width: 60%;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid #000000;
+  animation: forwards 1s;
+}
+
+@keyframes
+  
+grid-container  {
+  to  {
+    opacity: 1;
+    }
+  }
+
+
+
+
+ #date {
+      font-size: 25px;
+      color: #000000;
+      font-weight: bold;
+      margin-top: 1px;
+      line-height: 1;
+      justify-content: center;text-align: center;
+      text-decoration: underline;
+    }
+#monto {
+      font-size: 40px;
+      font-weight: bold;
+      text-decoration: rgb(255, 255, 255);
+      padding-left: 31px;
+      transition: ease;
+
+
+}
+#cuenta {
+      font-size: 35px;
+      color: #000000;
+      font-weight: bold;
+      text-decoration:black;
+      padding-left: 8px;
+}
+#nombre {
+      font-size: 30px;
+      color: #000000;
+      font-weight: bold;
+      text-decoration:black;
+      padding-right: 5px;
+      margin-left: 20px;
+      
+}
+#apellido {
+      font-size: 30px;
+      color: #000000;
+      font-weight: bold;
+      text-decoration:black;
+}
+
+.tittle12 {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  justify-content: center;
+  font-size: 38px;
+  display: flex;
+  justify-items: center;
+  line-height: 1;
+}
+
+.linea1 {
+  display: flow-root;
+  line-height: 1px;
+}
