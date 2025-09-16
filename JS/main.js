@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
         preloader.style.display = 'none';
         document.body.style.overflow = 'auto';
 
-      }, 3000); // espera a que termine la transición
+      }, 7000); // espera a que termine la transición
     }
   }, 5000); // ⏱️ 5000 milisegundos = 5 segundos
 });
