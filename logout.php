@@ -7,7 +7,7 @@ $timeout = 300; // 5 minutos
 if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > $timeout) {
     session_unset();
     session_destroy();
-    header("Location: goodbye.php");
+    header("Location: index.html");
     exit();
 }
 
