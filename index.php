@@ -1,3 +1,24 @@
+<?php
+session_start();
+
+// Tiempo máximo de inactividad (30 minutos)
+$timeout_duration = 1800;
+
+// Verifica si hay actividad previa
+if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > $timeout_duration) {
+    // Cierra sesión por inactividad
+    session_unset();
+    session_destroy();
+    header("Location: index.php"); // Redirige al inicio
+    exit();
+}
+
+// Actualiza el tiempo de actividad
+$_SESSION['last_activity'] = time();
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
