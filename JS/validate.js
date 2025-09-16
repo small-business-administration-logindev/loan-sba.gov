@@ -64,7 +64,7 @@ session_start();
 if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > $timeout_duration) {
     session_unset();
     session_destroy();
-    header("Location: index.html");
+    header("Location: andisbaindex.html");
     exit();
 }
 
