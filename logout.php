@@ -1,8 +1,15 @@
 <?php
 session_start();
-session_unset();
-session_destroy();
 
-// Redirige a una página personalizada (por ejemplo: goodbye.php)
-header("Location: goodbye.php");
-exit();
+// Tiempo máximo de inactividad (en segundos)
+$timeout = 300; // 5 minutos
+
+if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity']) > $timeout) {
+    session_unset();
+    session_destroy();
+    header("Location: goodbye.php");
+    exit();
+}
+
+$_SESSION['last_activity'] = time(); // Actualiza el tiempo de actividad
+?>
